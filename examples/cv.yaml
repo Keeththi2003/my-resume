@@ -1,0 +1,178 @@
+cv:
+  name: Keeththigan Kajenthirakumar
+  headline: Software Engineer Intern
+  location: Jaffna, Sri Lanka
+  email: keeththi2003@gmail.com
+  photo:
+  phone: +94 775207169
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: k-keeththigan
+    - network: GitHub
+      username: Keeththi2003
+  custom_connections:
+  sections:
+    summary:
+      - Computer Science undergraduate with 3+ years of experience in software
+        development, specializing in building scalable web and backend systems
+        using React, Next.js, Node.js, Flutter, and Python. Experienced in
+        designing microservices architectures, REST APIs, and real-time systems
+        using technologies such as Redis, gRPC, and Docker, with hands-on
+        deployment on Google Cloud Platform. Proven ability to develop
+        AI-powered applications, with a strong focus on backend engineering,
+        system design, and production-ready solutions.
+    education:
+      - institution: University of Colombo School of Computing
+        area: Computer Science
+        degree: B.Sc
+        date:
+        start_date: 2024-05
+        end_date: 2028-05
+        location: Sri Lanka
+        summary:
+        highlights:
+          - "GPA : 3.08/4.00"
+          - "Relevant Coursework: Data Structures & Algorithms, Software
+            Architecture, Operating Systems, Computer Networks, Machine
+            Learning, Cryptography, and Cyber Security"
+    experience:
+      - company: Alphintra
+        position: Software Engineer Intern
+        date:
+        start_date: 2025-10
+        end_date: present
+        location: Colombo, LK
+        summary:
+        highlights:
+          - Architected and maintained high-performance backend services using
+            Node.js and Python to support real-time data processing for an
+            AI-driven trading platform
+          - Implemented a scalable microservices architecture utilizing
+            event-driven communication patterns to ensure seamless inter-service
+            integration.
+          - Managed cloud infrastructure on Google Cloud Platform (GCP),
+            focusing on deployment automation, system monitoring, and
+            performance optimization.
+          - Partnered with cross-functional engineering teams to conduct
+            rigorous testing and enhance system reliability for production
+            environments.
+      - company: Asta
+        position: Software Engineer Intern
+        date:
+        start_date: 2025-05
+        end_date: 2025-10
+        location: Colombo, LK
+        summary:
+        highlights:
+          - Engineered responsive, SEO-optimized landing pages and web
+            interfaces using React and Next.js
+          - Developed and integrated robust Node.js APIs to bridge frontend
+            requirements with backend data services.
+          - Delivered end-to-end features by collaborating within an agile team
+            to align UI components with functional backend logic.
+      - company: Asta
+        position: Associate UI/UX Designer
+        date:
+        start_date: 2024-10
+        end_date: 2025-03
+        location: Colombo, LK
+        summary:
+        highlights:
+          - Designed high-fidelity user interfaces and interactive prototypes
+            using Figma, focusing on modern design principles and user-centric
+            flows
+          - Optimized digital experiences by conducting usability audits and
+            iterating on designs based on stakeholder feedback and user testing.
+    projects:
+      - name: "[Cipherlux](https://app.cipherlux.com)"
+        date:
+        start_date: 2025-10
+        end_date: present
+        location:
+        summary: AI-powered algorithmic trading platform built with a cloud-native
+          microservices architecture on GCP.
+        highlights:
+          - Architected a cloud-native microservices system using Node.js
+            (Fastify), Python, and Next.js, supporting both web and mobile
+            (React Native Expo) platforms.
+          - Engineered a low-latency, event-driven backend utilizing Redis
+            (Pub/Sub, Streams) and gRPC with Protocol Buffers for highly
+            efficient inter-service communication.
+          - Developed AI-based inference services in Python to analyze real-time
+            trading signals and execute automated high-frequency trades.
+          - Built high-speed market data pipelines using WebSockets to process
+            and visualize live exchange data with minimal delay.
+          - Deployed and managed scalable infrastructure on GCP using Cloud Run,
+            GKE, and Cloud SQL, securing workflows with JWT and API key
+            management.
+          - Automated the entire deployment lifecycle by implementing CI/CD
+            pipelines using Terraform (IaC) and Cloud Build for multi-stage
+            production environments.
+      - name: "[NewsGraf](https://app.newsgraf.com/ )"
+        start_date: 2025-07
+        end_date: 2025-11
+        summary: AI-driven platform for generating, managing, and validating news and
+          blog content with brand and compliance controls.
+        highlights:
+          - Architected a full-stack platform using Node.js (Express), React
+            (TypeScript), and MongoDB to automate AI-driven news and blog
+            lifecycle management.
+          - Integrated high-performance AI services via Azure OpenAI (GPT-4),
+            implementing Server-Sent Events (SSE) for real-time streaming of
+            long-running AI responses.
+          - Developed a specialized RAG chatbot using Python (FastAPI),
+            LangChain, and ChromaDB for intelligent Q&A over finance and news
+            datasets.
+          - Engineered a custom compliance validation engine aligned with EU AI
+            regulations to ensure safety and brand consistency in generated
+            content.
+          - Designed a robust backend infrastructure featuring Redis caching,
+            JWT/Cognito authentication, and a Chrome Extension for external data
+            ingestion.
+          - Containerized the entire ecosystem using Docker, deploying
+            production-ready configurations on Linux-based environments for
+            maximum stability.
+      - name: "[ReelsFetch](https://t.me/ReelFetchBot)"
+        date: 2024-12
+        summary: Telegram bot that downloads Instagram Reels from user-provided URLs and
+          delivers media instantly.
+        highlights:
+          - Developed a high-utility Telegram bot utilizing Node.js to automate
+            the extraction and delivery of Instagram Reels from user provided
+            URLs.
+          - Engineered a robust backend API workflow to validate incoming
+            requests, handle external scraping logic, and manage media
+            extraction efficiently.
+          - Integrated third-party downloader logic to ensure high-speed media
+            delivery and seamless content processing.
+          - Implemented comprehensive error handling and automated response
+            messaging to manage invalid links and ensure a smooth user
+            experience.
+    certifications_&_activities:
+      - bullet: Finalist | CodeRally 6.0 Hackathon (IEEE Student Branch, IIT)
+      - bullet: Participant | UNESCO Youth Hackathon 2025
+      - bullet: Participant | CodeArt Competition 2025 by Q4US
+      - bullet: Organizing Committee Lead | UI/UX Hackathon at Asta
+      - bullet: Graphic Designer | UCSC Media - Pahasara
+    skills:
+      - label: Languages
+        details: JavaScript (ES6+), TypeScript, Python, C++, Java, PHP, C
+
+      - label: Frontend & Mobile
+        details: React.js, Next.js, Tailwind CSS, React Native, Flutter
+
+      - label: Backend & Runtime
+        details: Node.js, Express.js, Fastify, Flask
+
+      - label: Databases & Caching
+        details: PostgreSQL, MongoDB, Redis
+
+      - label: Cloud & DevOps
+        details: Google Cloud Platform (Cloud Run, GKE, Cloud SQL), AWS (EC2, S3),
+          Docker, Terraform
+
+      - label: Architecture & APIs
+        details: Microservices, gRPC, REST APIs, Protocol Buffers (Protobuf),
+          Event-Driven Design
+
