@@ -14,14 +14,7 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Computer Science undergraduate with 3+ years of experience in software
-        development, specializing in building scalable web and backend systems
-        using React, Next.js, Node.js, Flutter, and Python. Experienced in
-        designing microservices architectures, REST APIs, and real-time systems
-        using technologies such as Redis, gRPC, and Docker, with hands-on
-        deployment on Google Cloud Platform. Proven ability to develop
-        AI-powered applications, with a strong focus on backend engineering,
-        system design, and production-ready solutions.
+      - Computer Science undergraduate with hands-on experience across multiple software engineering internships, specializing in scalable web and backend systems using React, Next.js, Node.js, and Python. Skilled in designing microservices architectures, REST APIs, and real-time systems with Redis, gRPC, and Docker, with production deployment experience on Google Cloud Platform. Familiar with DevOps practices and Linux-based deployment environments, including CI/CD pipelines and infrastructure as code (Terraform). Built and shipped multiple AI-powered platforms end-to-end, with a strong focus on system design and backend engineering.
     education:
       - institution: University of Colombo School of Computing
         area: Computer Science
@@ -32,7 +25,7 @@ cv:
         location: Sri Lanka
         summary:
         highlights:
-          - "GPA : 3.08/4.00"
+          - "GPA: 3.08/4.00"
           - "Relevant Coursework: Data Structures & Algorithms, Software
             Architecture, Operating Systems, Computer Networks, Machine
             Learning, Cryptography, and Cyber Security"
@@ -157,13 +150,13 @@ cv:
       - bullet: Graphic Designer | UCSC Media - Pahasara
     skills:
       - label: Languages
-        details: JavaScript (ES6+), TypeScript, Python, C++, Java, PHP, C
+        details: JavaScript (ES6+), TypeScript, Python, C++, Go, PHP, C
 
       - label: Frontend & Mobile
         details: React.js, Next.js, Tailwind CSS, React Native, Flutter
 
       - label: Backend & Runtime
-        details: Node.js, Express.js, Fastify, Flask
+        details: Node.js, Express.js, Fastify, FastApi
 
       - label: Databases & Caching
         details: PostgreSQL, MongoDB, Redis
@@ -175,4 +168,3 @@ cv:
       - label: Architecture & APIs
         details: Microservices, gRPC, REST APIs, Protocol Buffers (Protobuf),
           Event-Driven Design
-
