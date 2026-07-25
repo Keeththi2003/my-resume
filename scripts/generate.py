@@ -10,7 +10,7 @@ SRC = ROOT / "rendercv"
 FILES = [
     "locale.yaml",
     "settings.yaml",
-    "cv.yaml"
+    "cv.yaml",
     "design.yaml",
 ]
 
