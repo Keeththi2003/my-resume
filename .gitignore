@@ -4,3 +4,7 @@ __pycache__/
 *.pdf
 *.aux
 *.log
+
+
+/rendercv/rendercv_output
+/rendercv/cv.generated.yaml
