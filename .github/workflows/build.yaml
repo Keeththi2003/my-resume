@@ -1,0 +1,47 @@
+name: Build Resume
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "rendercv[full]"
+          pip install -r requirements.txt
+
+      - name: Generate merged YAML
+        run: python scripts/generate.py
+
+      - name: Build Resume
+        run: |
+          cd rendercv
+          rendercv render cv.generated.yaml
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: rendercv/rendercv_output/*.pdf
+
+      - name: Upload HTML
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-html
+          path: rendercv/rendercv_output/*.html
