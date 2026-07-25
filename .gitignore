@@ -1,6 +1,10 @@
-venv/
+/.venv/
 __pycache__/
 *.pyc
 *.pdf
 *.aux
 *.log
+
+
+/rendercv/rendercv_output
+/rendercv/cv.generated.yaml
