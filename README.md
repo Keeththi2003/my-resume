@@ -1,8 +1,9 @@
 # Resume
 
-[![Build](https://img.shields.io/github/actions/workflow/status/<your-username>/resume/build.yml?branch=main\&label=Build)](../../actions)
-[![Release](https://img.shields.io/github/v/release/<your-username>/resume?label=Latest%20Release)](../../releases/latest)
-[![License](https://img.shields.io/github/license/<your-username>/resume)](LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/Keeththi2003/my-resume/build.yaml?branch=main\&label=Build)](../../actions)
+[![Release](https://img.shields.io/github/v/release/Keeththi2003/my-resume?label=Latest%20Release)](../../releases/latest)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Keeththi2003.my-resume)
+[![Downloads](https://img.shields.io/github/downloads/Keeththi2003/my-resume/total?label=Downloads)](../../releases)
 
 Source code for my professional resume, built with **RenderCV** and automatically published using **GitHub Actions** and **GitHub Releases**.
 
@@ -46,8 +47,7 @@ python scripts/generate.py
 Build the resume.
 
 ```bash
-cd rendercv
-rendercv render cv.generated.yaml
+scripts/build.sh
 ```
 
 The generated files are written to:
