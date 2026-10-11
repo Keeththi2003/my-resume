@@ -2,5 +2,5 @@
 
 set -euo pipefail
 
-rm -f rendercv/cv.generated.yaml
+rm -f rendercv/cv.generated.yaml rendercv/cv.*.generated.yaml
 rm -rf rendercv/rendercv_output
