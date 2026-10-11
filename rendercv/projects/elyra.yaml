@@ -1,0 +1,7 @@
+name: Elyra  # TODO: link, if public
+date: 2026-08
+location:
+summary: Smart-home Android app built solo.
+highlights:
+  - Built the app in Kotlin with Firebase.
+  - Built a Next.js device simulator.  # TODO: what the simulator is used for

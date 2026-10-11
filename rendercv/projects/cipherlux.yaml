@@ -1,0 +1,42 @@
+name: "[Cipherlux](https://app.cipherlux.com)"
+date:
+start_date: 2025-10
+end_date: present
+location:
+summary: AI-powered algorithmic trading platform built with a cloud-native
+  microservices architecture on GCP.
+highlights:
+  - Architected a cloud-native microservices system using Node.js
+    (Fastify), Python, and Next.js, supporting both web and mobile
+    (React Native Expo) platforms.
+  - Engineered a low-latency, event-driven backend utilizing Redis
+    (Pub/Sub, Streams) and gRPC with Protocol Buffers for highly
+    efficient inter-service communication.
+  - Developed AI-based inference services in Python to analyze real-time
+    trading signals and execute automated high-frequency trades.
+  - Built high-speed market data pipelines using WebSockets to process
+    and visualize live exchange data with minimal delay.
+  - Deployed and managed scalable infrastructure on GCP using Cloud Run,
+    GKE, and Cloud SQL, securing workflows with JWT and API key
+    management.
+  - Automated the entire deployment lifecycle by implementing CI/CD
+    pipelines using Terraform (IaC) and Cloud Build for multi-stage
+    production environments.
+# Same bullets, infrastructure and delivery first.
+highlights_devops:
+  - Automated the entire deployment lifecycle by implementing CI/CD
+    pipelines using Terraform (IaC) and Cloud Build for multi-stage
+    production environments.
+  - Deployed and managed scalable infrastructure on GCP using Cloud Run,
+    GKE, and Cloud SQL, securing workflows with JWT and API key
+    management.
+  - Architected a cloud-native microservices system using Node.js
+    (Fastify), Python, and Next.js, supporting both web and mobile
+    (React Native Expo) platforms.
+  - Engineered a low-latency, event-driven backend utilizing Redis
+    (Pub/Sub, Streams) and gRPC with Protocol Buffers for highly
+    efficient inter-service communication.
+  - Built high-speed market data pipelines using WebSockets to process
+    and visualize live exchange data with minimal delay.
+  - Developed AI-based inference services in Python to analyze real-time
+    trading signals and execute automated high-frequency trades.

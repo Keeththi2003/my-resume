@@ -1,0 +1,12 @@
+name: Temple Management Portal  # TODO: link, if public
+date:
+start_date: 2026-05
+end_date: 2026-09
+location:
+summary: Accounting and events system for a temple, built solo.
+highlights:
+  - Built the system with NestJS on Fastify, Prisma, PostgreSQL, and Next.js.
+  - Implemented vouchers, a ledger, fixed deposits, and an asset register,
+    with role-based access control.
+  - Supported both Tamil and English.
+  # TODO: a bullet on the events features (what users can do with them)

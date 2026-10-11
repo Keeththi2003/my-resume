@@ -1,0 +1,10 @@
+# Not used by any variant at the moment.
+name: PediaLink  # TODO: link, if public
+date:
+start_date: 2025-07
+end_date: 2026-04
+location:
+summary: Child and maternal health system built by a 4-person university team.
+highlights:
+  - Built in PHP on a custom framework, with PostgreSQL and Docker.
+  # TODO: which parts you built yourself

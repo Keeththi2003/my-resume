@@ -1,0 +1,17 @@
+# Not used by any variant at the moment.
+name: "[ReelsFetch](https://t.me/ReelFetchBot)"
+date: 2024-12
+summary: Telegram bot that downloads Instagram Reels from user-provided URLs and
+  delivers media instantly.
+highlights:
+  - Developed a high-utility Telegram bot utilizing Node.js to automate
+    the extraction and delivery of Instagram Reels from user provided
+    URLs.
+  - Engineered a robust backend API workflow to validate incoming
+    requests, handle external scraping logic, and manage media
+    extraction efficiently.
+  - Integrated third-party downloader logic to ensure high-speed media
+    delivery and seamless content processing.
+  - Implemented comprehensive error handling and automated response
+    messaging to manage invalid links and ensure a smooth user
+    experience.
