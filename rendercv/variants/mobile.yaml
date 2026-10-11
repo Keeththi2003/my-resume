@@ -1,0 +1,20 @@
+# Mobile Developer. Output: Resume-Mobile.pdf
+output_name: Mobile
+headline:  # TODO: mobile headline
+summary:  # TODO: tailor for mobile roles (currently the SE summary)
+  - Computer Science undergraduate with hands-on experience across multiple software engineering internships, specializing in scalable web and backend systems using React, Next.js, Node.js, and Python. Skilled in designing microservices architectures, REST APIs, and real-time systems with Redis, gRPC, and Docker, with production deployment experience on Google Cloud Platform. Familiar with DevOps practices and Linux-based deployment environments, including CI/CD pipelines and infrastructure as code (Terraform). Built and shipped multiple AI-powered platforms end-to-end, with a strong focus on system design and backend engineering.
+projects:
+  - twoverse
+  - elyra
+  - gridx
+  - cipherlux
+skills_order:
+  - Frontend & Mobile
+  - Languages
+  - Backend & Runtime
+  - Databases & Caching
+  - Cloud & DevOps
+  - Architecture & APIs
+highlight_sets:
+  projects:
+    gridx: mobile
