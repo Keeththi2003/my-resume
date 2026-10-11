@@ -1,0 +1,24 @@
+name: "[NewsGraf](https://app.newsgraf.com/ )"
+start_date: 2025-07
+end_date: 2025-11
+summary: AI-driven platform for generating, managing, and validating news and
+  blog content with brand and compliance controls.
+highlights:
+  - Architected a full-stack platform using Node.js (Express), React
+    (TypeScript), and MongoDB to automate AI-driven news and blog
+    lifecycle management.
+  - Integrated high-performance AI services via Azure OpenAI (GPT-4),
+    implementing Server-Sent Events (SSE) for real-time streaming of
+    long-running AI responses.
+  - Developed a specialized RAG chatbot using Python (FastAPI),
+    LangChain, and ChromaDB for intelligent Q&A over finance and news
+    datasets.
+  - Engineered a custom compliance validation engine aligned with EU AI
+    regulations to ensure safety and brand consistency in generated
+    content.
+  - Designed a robust backend infrastructure featuring Redis caching,
+    JWT/Cognito authentication, and a Chrome Extension for external data
+    ingestion.
+  - Containerized the entire ecosystem using Docker, deploying
+    production-ready configurations on Linux-based environments for
+    maximum stability.

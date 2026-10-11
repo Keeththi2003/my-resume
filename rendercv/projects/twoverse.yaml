@@ -1,0 +1,11 @@
+name: Twoverse  # TODO: link, if public
+date:
+start_date: 2026-09
+end_date: 2026-10
+location:
+summary: Android app built solo with a Supabase backend.  # TODO: what the app does
+highlights:
+  - Built the app in Kotlin with Jetpack Compose.
+  - Used Supabase for the backend, with Postgres row-level security and Edge
+    Functions.
+  - Added unit tests and CI.

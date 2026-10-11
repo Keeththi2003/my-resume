@@ -1,0 +1,26 @@
+name: GridX  # TODO: link to the repo or demo, if public
+date:
+start_date: 2026-07
+end_date: present
+location:
+summary: Peer-to-peer energy trading platform built by a 7-person university
+  team.
+highlights:
+  - Built most of the matching engine in C++20, including the order book and
+    same-zone and cross-zone order matching.
+  - Implemented Kafka and Protobuf adapters for the matching engine.
+  - Wrote 134 GoogleTest unit tests and set up the CMake and Conan build with
+    CI.
+  - Worked on the Fastify API gateway, including JWT authentication, Redis
+    rate limiting, and WebSocket tickets.
+  - Worked on the Expo React Native mobile app.  # TODO: what you built in the app
+# Same bullets, app and gateway work first.
+highlights_mobile:
+  - Worked on the Expo React Native mobile app.  # TODO: what you built in the app
+  - Worked on the Fastify API gateway, including JWT authentication, Redis
+    rate limiting, and WebSocket tickets.
+  - Built most of the matching engine in C++20, including the order book and
+    same-zone and cross-zone order matching.
+  - Implemented Kafka and Protobuf adapters for the matching engine.
+  - Wrote 134 GoogleTest unit tests and set up the CMake and Conan build with
+    CI.

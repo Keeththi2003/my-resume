@@ -30,9 +30,7 @@ jobs:
         run: python scripts/generate.py
 
       - name: Build Resume
-        run: |
-          cd rendercv
-          rendercv render cv.generated.yaml
+        run: scripts/build.sh
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4

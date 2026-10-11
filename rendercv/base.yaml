@@ -1,0 +1,131 @@
+# Shared CV content used by every variant.
+#
+# headline, summary and projects come from variants/<role>.yaml.
+# skills groups are listed here once; each variant sets their order by label.
+#
+# Experience entries carry an `id` so a variant can pick an alternative
+# highlight set for them (e.g. `highlights_devops`). `id` and `highlights_*`
+# keys are stripped by scripts/generate.py before RenderCV sees them.
+
+cv:
+  name: Keeththigan Kajenthirakumar
+  location: Jaffna, Sri Lanka
+  email: keeththi2003@gmail.com
+  photo:
+  phone: +94 775207169
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: k-keeththigan
+    - network: GitHub
+      username: Keeththi2003
+  custom_connections:
+  sections:
+    education:
+      - institution: University of Colombo School of Computing
+        area: Computer Science
+        degree: B.Sc
+        date:
+        start_date: 2024-05
+        end_date: 2028-05
+        location: Sri Lanka
+        summary:
+        highlights:
+          - "GPA: 3.08/4.00"
+          - "Relevant Coursework: Data Structures & Algorithms, Software
+            Architecture, Operating Systems, Computer Networks, Machine
+            Learning, Cryptography, and Cyber Security"
+    experience:
+      - id: alphintra
+        company: Alphintra
+        position: Software Engineer Intern
+        date:
+        start_date: 2025-10
+        end_date: present
+        location: Colombo, LK
+        summary:
+        highlights:
+          - Architected and maintained high-performance backend services using
+            Node.js and Python to support real-time data processing for an
+            AI-driven trading platform
+          - Implemented a scalable microservices architecture utilizing
+            event-driven communication patterns to ensure seamless inter-service
+            integration.
+          - Managed cloud infrastructure on Google Cloud Platform (GCP),
+            focusing on deployment automation, system monitoring, and
+            performance optimization.
+          - Partnered with cross-functional engineering teams to conduct
+            rigorous testing and enhance system reliability for production
+            environments.
+        # Same bullets, infrastructure first.
+        highlights_devops:
+          - Managed cloud infrastructure on Google Cloud Platform (GCP),
+            focusing on deployment automation, system monitoring, and
+            performance optimization.
+          - Implemented a scalable microservices architecture utilizing
+            event-driven communication patterns to ensure seamless inter-service
+            integration.
+          - Architected and maintained high-performance backend services using
+            Node.js and Python to support real-time data processing for an
+            AI-driven trading platform
+          - Partnered with cross-functional engineering teams to conduct
+            rigorous testing and enhance system reliability for production
+            environments.
+      - id: asta-intern
+        company: Asta
+        position: Software Engineer Intern
+        date:
+        start_date: 2025-05
+        end_date: 2025-10
+        location: Colombo, LK
+        summary:
+        highlights:
+          - Engineered responsive, SEO-optimized landing pages and web
+            interfaces using React and Next.js
+          - Developed and integrated robust Node.js APIs to bridge frontend
+            requirements with backend data services.
+          - Delivered end-to-end features by collaborating within an agile team
+            to align UI components with functional backend logic.
+      - id: asta-designer
+        company: Asta
+        position: Associate UI/UX Designer
+        date:
+        start_date: 2024-10
+        end_date: 2025-03
+        location: Colombo, LK
+        summary:
+        highlights:
+          - Designed high-fidelity user interfaces and interactive prototypes
+            using Figma, focusing on modern design principles and user-centric
+            flows
+          - Optimized digital experiences by conducting usability audits and
+            iterating on designs based on stakeholder feedback and user testing.
+    certifications_&_activities:
+      - bullet: Finalist | CodeRally 6.0 Hackathon (IEEE Student Branch, IIT)
+      - bullet: Participant | UNESCO Youth Hackathon 2025
+      - bullet: Participant | CodeArt Competition 2025 by Q4US
+      - bullet: Organizing Committee Lead | UI/UX Hackathon at Asta
+      - bullet: Graphic Designer | UCSC Media - Pahasara
+    # TODO: Kotlin, Jetpack Compose, Supabase, Firebase, Kafka, CMake, Conan,
+    # GoogleTest, NestJS and Prisma appear in projects but not here. Add the
+    # ones you want listed (this changes every variant, including SE).
+    skills:
+      - label: Languages
+        details: JavaScript (ES6+), TypeScript, Python, C++, Go, PHP, C
+
+      - label: Frontend & Mobile
+        details: React.js, Next.js, Tailwind CSS, React Native, Flutter
+
+      - label: Backend & Runtime
+        details: Node.js, Express.js, Fastify, FastApi
+
+      - label: Databases & Caching
+        details: PostgreSQL, MongoDB, Redis
+
+      - label: Cloud & DevOps
+        details: Google Cloud Platform (Cloud Run, GKE, Cloud SQL), AWS (EC2, S3),
+          Docker, Terraform
+
+      - label: Architecture & APIs
+        details: Microservices, gRPC, REST APIs, Protocol Buffers (Protobuf),
+          Event-Driven Design
