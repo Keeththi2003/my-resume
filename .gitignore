@@ -8,3 +8,4 @@ __pycache__/
 
 /rendercv/rendercv_output
 /rendercv/cv.generated.yaml
+/rendercv/cv.*.generated.yaml
